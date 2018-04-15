@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+
+    <context-param>
+        <param-name>contextParam</param-name>
+        <param-value>..........</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>ServletDemo1</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo1</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ServletDemo2</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo2</servlet-name>
+        <url-pattern>/servlet2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ServletDemo3</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo03</servlet-class>
+        <!--<load-on-startup>1</load-on-startup>-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo3</servlet-name>
+        <url-pattern>/servlet3</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ServletDemo4</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo04</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo4</servlet-name>
+        <url-pattern>/servlet4</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ServletDemo5</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo05</servlet-class>
+        <init-param>
+            <param-name>data1</param-name>
+            <param-value>配置信息</param-value>
+        </init-param>
+        <init-param>
+            <param-name>data2</param-name>
+            <param-value>配置信息2</param-value>
+        </init-param>
+        <init-param>
+            <param-name>data3</param-name>
+            <param-value>配置信息3</param-value>
+        </init-param>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo5</servlet-name>
+        <url-pattern>/servlet5</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDemo6</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo06</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo6</servlet-name>
+        <url-pattern>/servlet6</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDemo7</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo07</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo7</servlet-name>
+        <url-pattern>/servlet7</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDemo8</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo08</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo8</servlet-name>
+        <url-pattern>/servlet8</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDemo9</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo09</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo9</servlet-name>
+        <url-pattern>/servlet9</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDemo10</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo10</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo10</servlet-name>
+        <url-pattern>/servlet10</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDemo11</servlet-name>
+        <servlet-class>zool.servlet.ServletDemo11</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo11</servlet-name>
+        <url-pattern>/servlet11</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Respones1</servlet-name>
+        <servlet-class>zool.respones.ResponesDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Respones1</servlet-name>
+        <url-pattern>/respones1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Respones2</servlet-name>
+        <servlet-class>zool.respones.ResponesDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Respones2</servlet-name>
+        <url-pattern>/respones2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Respones3</servlet-name>
+        <servlet-class>zool.respones.ResponesDemo03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Respones3</servlet-name>
+        <url-pattern>/respones3</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Respones4</servlet-name>
+        <servlet-class>zool.respones.ResponesDemo04</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Respones4</servlet-name>
+        <url-pattern>/respones4</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Respones5</servlet-name>
+        <servlet-class>zool.respones.ResponesDemo05</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Respones5</servlet-name>
+        <url-pattern>/respones5</url-pattern>
+    </servlet-mapping>
+
+</web-app>

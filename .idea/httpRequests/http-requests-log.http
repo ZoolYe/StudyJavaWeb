@@ -1,0 +1,28 @@
+GET http://localhost:8080/servlet11
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/servlet11
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/servlet10
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-04-04T115509-1.200.html
+
+###
+
+GET http://localhost:8080/servlet10
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-04-04T115509.200.html
+
+###
+
