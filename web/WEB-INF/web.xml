@@ -164,4 +164,49 @@
         <url-pattern>/respones5</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Respones6</servlet-name>
+        <servlet-class>zool.respones.ResponesDemo06</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Respones6</servlet-name>
+        <url-pattern>/respones6</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Respones7</servlet-name>
+        <servlet-class>zool.respones.ResponesDemo07</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Respones7</servlet-name>
+        <url-pattern>/respones7</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Respones8</servlet-name>
+        <servlet-class>zool.respones.ResponesDemo08</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Respones8</servlet-name>
+        <url-pattern>/respones8</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Request1</servlet-name>
+        <servlet-class>zool.request.RequestDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Request1</servlet-name>
+        <url-pattern>/request1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Request2</servlet-name>
+        <servlet-class>zool.request.RequestDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Request2</servlet-name>
+        <url-pattern>/request2</url-pattern>
+    </servlet-mapping>
+
 </web-app>
