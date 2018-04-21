@@ -209,4 +209,13 @@
         <url-pattern>/request2</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Request3</servlet-name>
+        <servlet-class>zool.request.RequestDemo03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Request3</servlet-name>
+        <url-pattern>/request3</url-pattern>
+    </servlet-mapping>
+
 </web-app>
