@@ -13,12 +13,16 @@
 <body>
 
 <h1>
-    <%
+    <%--<%
         String message = (String) application.getAttribute("message");
         out.write(message);
-    %>
+    %>--%>
 </h1>
-
+${data}
+<%
+    String date = (String) request.getAttribute("data");
+    out.print(date);
+%>
 
 </body>
 </html>

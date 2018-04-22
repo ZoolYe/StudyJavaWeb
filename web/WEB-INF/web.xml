@@ -218,4 +218,49 @@
         <url-pattern>/request3</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Request4</servlet-name>
+        <servlet-class>zool.request.RequestDemo04</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Request4</servlet-name>
+        <url-pattern>/request4</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Request5</servlet-name>
+        <servlet-class>zool.request.RequestDemo05</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Request5</servlet-name>
+        <url-pattern>/request5</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Request6</servlet-name>
+        <servlet-class>zool.request.RequestDemo06</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Request6</servlet-name>
+        <url-pattern>/request6</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Request7</servlet-name>
+        <servlet-class>zool.request.RequestDemo07</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Request7</servlet-name>
+        <url-pattern>/request7</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDemo01_url</servlet-name>
+        <servlet-class>zool.url.ServletDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo01_url</servlet-name>
+        <url-pattern>/servlet1_url</url-pattern>
+    </servlet-mapping>
+    
 </web-app>
