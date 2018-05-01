@@ -1,23 +1,19 @@
 <%--
   Created by IntelliJ IDEA.
   User: ZOOL
-  Date: 2018/4/15
-  Time: 18:48
+  Date: 2018/5/1
+  Time: 14:21
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>buy</title>
 </head>
 <body>
 
-    欢迎您：${user.name}
-
-    <br/>
-    <h3>
-        <a href="/respones6">查看图书</a>
-    </h3>
+    <a href="/session1">购买</a>
+    <a href="/session2">结账</a>
 
 </body>
 </html>

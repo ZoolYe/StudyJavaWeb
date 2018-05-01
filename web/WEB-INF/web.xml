@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
 
+    <!--配置session存活时间-->
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
+
     <context-param>
         <param-name>contextParam</param-name>
         <param-value>..........</param-value>
@@ -308,4 +313,58 @@
         <url-pattern>/cookie4</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Session1</servlet-name>
+        <servlet-class>zool.session.SessionDemo01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Session1</servlet-name>
+        <url-pattern>/session1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Session2</servlet-name>
+        <servlet-class>zool.session.SessionDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Session2</servlet-name>
+        <url-pattern>/session2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListBookServlet</servlet-name>
+        <servlet-class>zool.shopping.ListBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListBookServlet</servlet-name>
+        <url-pattern>/listServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BuyServlet</servlet-name>
+        <servlet-class>zool.shopping.BuyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BuyServlet</servlet-name>
+        <url-pattern>/buyServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ListCartServlet</servlet-name>
+        <servlet-class>zool.shopping.ListCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListCartServlet</servlet-name>
+        <url-pattern>/listCart</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>zool.login.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    
 </web-app>
