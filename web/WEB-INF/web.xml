@@ -367,4 +367,22 @@
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>DoFrom</servlet-name>
+        <servlet-class>zool.form.DoForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoFrom</servlet-name>
+        <url-pattern>/dofrom</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormServlet</servlet-name>
+        <servlet-class>zool.form.FormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormServlet</servlet-name>
+        <url-pattern>/form_servlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
