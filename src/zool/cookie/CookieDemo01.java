@@ -22,9 +22,9 @@ public class CookieDemo01 extends HttpServlet {
         out.write("<a href='/cookie2'>清空Cookie</a></br>");
 
         /*获取用户的时间cookie*/
-        Cookie cookie[] = req.getCookies();
+        Cookie[] cookie = req.getCookies();
         for (int i=0;cookie!=null && i<cookie.length;i++) {
-            if(cookie[i].getName().equals("lastAccessTime")){
+            if("lastAccessTime".equals(cookie[i].getName())){
                 long time = Long.parseLong(cookie[i].getValue());
                 SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 hh:mm:ss SSS a");
                 out.println("你上次的访问时间是："+sdf.format(new Date(time)));
