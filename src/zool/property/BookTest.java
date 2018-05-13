@@ -1,19 +1,16 @@
-package zool.bean;
+package zool.property;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class bean3Test {
+public class BookTest {
 
     @Test
-    public void beanTest(){
+    public void bookTest(){
         ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
-        Bean3 bean3 = (Bean3) context.getBean("bean3");
-        Bean3 bean = (Bean3) context.getBean("bean3");
-        bean3.add();
-        System.out.println(bean3);
-        System.out.println(bean);
+        Book book = (Book) context.getBean("book");
+        book.demoBook();
     }
 
 }
