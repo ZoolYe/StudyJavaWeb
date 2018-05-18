@@ -10,19 +10,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="466baf66-8d48-4adb-9dff-87c432c839a4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyJavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/bean/bean3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zool/bean/bean3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/anno/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/anno/UserDao2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/anno/UserService2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/anno/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/bean/Bean2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/bean/Bean2Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/bean/Bean3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/bean/Bean3Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/bean/bean2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/bean/bean3Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/cookie/CookieDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/cookie/CookieDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/cookie/CookieDemo03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/cookie/CookieDemo04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/form/DoForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/form/FormServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/ioc/TestIoc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/ioc/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/ioc/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/ioc/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/ioc/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/login/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/property/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/property/BookTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/property/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/property/PersonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/property/PropertyDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/property/PropertyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/session/SessionDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/session/SessionDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/shopping/BuyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/shopping/ListBookServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/shopping/ListCartServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zool/url/ServletDemo01.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/StudyJavaWeb$UserTest_userServiceTest.ic" NAME="UserTest.userServiceTest Coverage Results" MODIFIED="1526606697211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>zool.anno.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,10 +110,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zool/anno/UserTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="266">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +121,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zool/anno/UserService2.java">
+      <file leaf-file-name="form.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="418">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/property/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/UserService2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,23 +152,19 @@
         </entry>
       </file>
       <file leaf-file-name="UserDao2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zool/anno/UserDao2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/UserDao2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-              </folding>
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="bean1.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean1.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bean1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="1596">
+              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -104,8 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/public/foot.jsp" />
-        <option value="$PROJECT_DIR$/src/zool/url/ServletDemo01.java" />
         <option value="$PROJECT_DIR$/src/zool/request/RequestDemo08.java" />
         <option value="$PROJECT_DIR$/src/zool/cookie/CookieDemo02.java" />
         <option value="$PROJECT_DIR$/src/zool/cookie/CookieDemo03.java" />
@@ -148,13 +229,15 @@
         <option value="$PROJECT_DIR$/src/zool/ioc/UserTest.java" />
         <option value="$PROJECT_DIR$/src/zool/property/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/zool/property/Person.java" />
-        <option value="$PROJECT_DIR$/src/bean1.xml" />
         <option value="$PROJECT_DIR$/src/zool/anno/User.java" />
         <option value="$PROJECT_DIR$/src/zool/anno/UserService.java" />
         <option value="$PROJECT_DIR$/src/zool/anno/UserTest.java" />
         <option value="$PROJECT_DIR$/src/zool/anno/UserDao.java" />
         <option value="$PROJECT_DIR$/src/zool/anno/UserDao2.java" />
         <option value="$PROJECT_DIR$/src/zool/anno/UserService2.java" />
+        <option value="$PROJECT_DIR$/src/bean1.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/anno/UserTest.java" />
       </list>
     </option>
   </component>
@@ -175,10 +258,26 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\Users\ZOOL\.m2\repository" />
-        <option name="mavenHome" value="D:/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StudyJavaWeb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -199,6 +298,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,14 +315,14 @@
               <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zool" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zool" type="462c0819:PsiDirectoryNode" />
-              <item name="anno" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +335,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,22 +347,23 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java开发包/spring-framework-4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src" />
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web" />
       <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web\download" />
       <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\StudyJavaWeb\src\main\resources" />
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src" />
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -355,127 +455,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.userServiceTest">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BookTest.bookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudyJavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zool.property.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="zool.property" />
-      <option name="MAIN_CLASS_NAME" value="zool.property.BookTest" />
-      <option name="METHOD_NAME" value="bookTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PersonTest.personTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudyJavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zool.property.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="zool.property" />
-      <option name="MAIN_CLASS_NAME" value="zool.property.PersonTest" />
-      <option name="METHOD_NAME" value="personTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserTest.userServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudyJavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zool.anno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="zool.anno" />
-      <option name="MAIN_CLASS_NAME" value="zool.anno.UserTest" />
-      <option name="METHOD_NAME" value="userServiceTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserTest.userTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudyJavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zool.ioc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="zool.ioc" />
-      <option name="MAIN_CLASS_NAME" value="zool.ioc.UserTest" />
-      <option name="METHOD_NAME" value="userTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UserTest.userTset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudyJavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zool.anno.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="zool.anno" />
-      <option name="MAIN_CLASS_NAME" value="zool.anno.UserTest" />
-      <option name="METHOD_NAME" value="userTset" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -606,23 +591,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5" />
-      <item itemvalue="JUnit.BookTest.bookTest" />
-      <item itemvalue="JUnit.UserTest.userTest" />
-      <item itemvalue="JUnit.PersonTest.personTest" />
-      <item itemvalue="JUnit.UserTest.userTset" />
-      <item itemvalue="JUnit.UserTest.userServiceTest" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.UserTest.userServiceTest" />
-        <item itemvalue="JUnit.UserTest.userTset" />
-        <item itemvalue="JUnit.PersonTest.personTest" />
-        <item itemvalue="JUnit.UserTest.userTest" />
-        <item itemvalue="JUnit.BookTest.bookTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
@@ -666,43 +634,48 @@
       <workItem from="1526134048408" duration="3662000" />
       <workItem from="1526138289372" duration="5535000" />
       <workItem from="1526194197085" duration="15485000" />
+      <workItem from="1526267520973" duration="80000" />
+      <workItem from="1526559047653" duration="1480000" />
+      <workItem from="1526606059534" duration="1734000" />
+      <workItem from="1526607827670" duration="707000" />
+      <workItem from="1526608587345" duration="108000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_userServiceTest - 2018.05.13 at 21h 50m 10s.xml">
-      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_userServiceTest - 2018.05.13 at 21h 54m 14s.xml">
-      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_userServiceTest - 2018.05.13 at 21h 57m 14s.xml">
-      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_userServiceTest - 2018.05.13 at 21h 58m 07s.xml">
-      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_userServiceTest - 2018.05.13 at 21h 58m 24s.xml">
-      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_userServiceTest - 2018.05.13 at 21h 59m 34s.xml">
-      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_userServiceTest - 2018.05.13 at 22h 00m 21s.xml">
-      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_userServiceTest - 2018.05.13 at 22h 08m 07s.xml">
-      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserTest_userServiceTest - 2018.05.13 at 22h 15m 05s.xml">
       <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserTest_userServiceTest - 2018.05.13 at 22h 18m 38s.xml">
       <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserTest_userTset - 2018.05.17 at 20h 35m 06s.xml">
+      <configuration name="UserTest.userTset" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_userServiceTest - 2018.05.18 at 09h 17m 44s.xml">
+      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_userServiceTest - 2018.05.18 at 09h 19m 29s.xml">
+      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_userServiceTest - 2018.05.18 at 09h 21m 08s.xml">
+      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_userServiceTest - 2018.05.18 at 09h 23m 36s.xml">
+      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_userServiceTest - 2018.05.18 at 09h 25m 00s.xml">
+      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_userServiceTest - 2018.05.18 at 09h 25m 15s.xml">
+      <configuration name="UserTest.userServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_userTset - 2018.05.18 at 09h 25m 25s.xml">
+      <configuration name="UserTest.userTset" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142111000" />
+    <option name="totallyTimeSpent" value="146220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,14 +687,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3284553" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50378215" side_tool="true" weight="0.4097561" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50378215" side_tool="true" weight="0.40948275" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3284553" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -729,33 +702,34 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="19" sideWeight="0.49621785" weight="0.48292682" />
+      <window_info anchor="bottom" id="Debug" order="19" sideWeight="0.49621785" weight="0.35668105" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3284553" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.32520324" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3284553" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44935346" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4504065" />
       <window_info anchor="bottom" id="Spring" order="20" weight="0.3284553" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.47317073" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49268293" visible="true" weight="0.25189108" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.47306034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49268293" visible="true" weight="0.26545843" />
       <window_info id="Web" order="5" sideWeight="0.50731707" side_tool="true" weight="0.24886535" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3284553" />
       <window_info anchor="bottom" id="REST Client" order="18" weight="0.5146104" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="9" weight="0.38861787" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Database Console" order="21" visible="true" weight="0.3284553" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="9" weight="0.38861787" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32435346" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,49 +753,49 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/zool/session/SessionDemo02.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="1539">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/session/SessionDemo01.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/session/SessionDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/cookie/CookieDemo04.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/cookie/CookieDemo04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/cookie/CookieDemo03.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/cookie/CookieDemo03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/shopping/ListCartServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/shopping/ListCartServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/shopping/ListBookServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/shopping/ListBookServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/shopping/BuyServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/shopping/BuyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
@@ -856,7 +830,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/login/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/login/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
@@ -877,28 +851,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/form/FormServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/form/FormServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/form/DoForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/form/DoForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/respones/ResponesDemo04.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/respones/ResponesDemo04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
@@ -955,7 +922,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/cookie/CookieDemo01.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/cookie/CookieDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
@@ -969,232 +936,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/ioc/User.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/ioc/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/ioc/TestIoc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/ioc/TestIoc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/bean/Bean2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/bean/Bean2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/bean/Bean2Factory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/bean/Bean2Factory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/bean/Bean3Factory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/bean/Bean3Factory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#76#77#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/bean/bean2Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/bean/bean2Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/bean/Bean3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/bean/Bean3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/bean/bean3Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/bean/bean3Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/property/PropertyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/property/PropertyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/property/PropertyDemo01.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/property/PropertyDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/property/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/property/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/property/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/ioc/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/ioc/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="e#68#69#0" expanded="true" />
-            <element signature="e#104#105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/ioc/UserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/ioc/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/ioc/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/ioc/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/property/PersonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/property/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="85" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/property/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/property/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/anno/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/anno/UserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/property/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/anno/UserDao2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/UserDao2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/UserService2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zool/anno/UserService2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
