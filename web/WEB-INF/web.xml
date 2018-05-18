@@ -385,4 +385,18 @@
         <url-pattern>/form_servlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>spring.profiles.active</param-name>
+            <param-value>production</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    
 </web-app>
