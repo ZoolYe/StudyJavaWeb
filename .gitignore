@@ -29,4 +29,5 @@ hs_err_pid*
 .idea/inspectionProfiles/
 .idea/libraries/
 out/
-target
+target/classes
+target/generated-sources
