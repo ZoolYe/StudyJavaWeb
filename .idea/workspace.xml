@@ -10,73 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="466baf66-8d48-4adb-9dff-87c432c839a4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyJavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/anno/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/anno/UserDao2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/anno/UserService2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/anno/UserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/bean/Bean2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/bean/Bean2Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/bean/Bean3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/bean/Bean3Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/bean/bean2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/bean/bean3Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/cookie/CookieDemo01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/cookie/CookieDemo02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/cookie/CookieDemo03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/cookie/CookieDemo04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/form/DoForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/form/FormServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/ioc/TestIoc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/ioc/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/ioc/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/ioc/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/ioc/UserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/login/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/property/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/property/BookTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/property/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/property/PersonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/property/PropertyDemo01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/property/PropertyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/request/RequestDemo08.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/respones/ResponesDemo08.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo08.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo09.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/servlet/ServletDemo11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/session/SessionDemo01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/session/SessionDemo02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/shopping/BuyServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/shopping/ListBookServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/shopping/ListCartServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zool/url/ServletDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -121,11 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/form.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -187,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zool/request/RequestDemo08.java" />
         <option value="$PROJECT_DIR$/src/zool/cookie/CookieDemo02.java" />
         <option value="$PROJECT_DIR$/src/zool/cookie/CookieDemo03.java" />
         <option value="$PROJECT_DIR$/src/zool/cookie/CookieDemo04.java" />
@@ -238,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/bean1.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/zool/anno/UserTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -327,7 +270,16 @@
             <path>
               <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -638,7 +590,7 @@
       <workItem from="1526559047653" duration="1480000" />
       <workItem from="1526606059534" duration="1734000" />
       <workItem from="1526607827670" duration="707000" />
-      <workItem from="1526608587345" duration="108000" />
+      <workItem from="1526608587345" duration="728000" />
     </task>
     <servers />
   </component>
@@ -675,7 +627,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146220000" />
+    <option name="totallyTimeSpent" value="146840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -936,7 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/main/java/zool/ioc/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1101,6 +1052,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>

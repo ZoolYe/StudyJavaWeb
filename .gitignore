@@ -29,7 +29,4 @@ hs_err_pid*
 .idea/inspectionProfiles/
 .idea/libraries/
 out/
-pom.xml
-src/main/
-src/test/
-target/git
+target
