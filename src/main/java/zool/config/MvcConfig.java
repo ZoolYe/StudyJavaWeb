@@ -9,19 +9,20 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan
+@ComponentScan(basePackages = "zool.Controller")
 public class MvcConfig {
 
     /**
      * 用来映射路径和实际页面的位置
      * @return
-     */
+     * */
+
     @Bean
     public InternalResourceViewResolver viewResolver(){
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setPrefix("/");
-        viewResolver.setSuffix(".jsp");
         viewResolver.setViewClass(JstlView.class);
+        viewResolver.setPrefix("WEB-INF/classes/views/");
+        viewResolver.setSuffix(".jsp");
         return viewResolver;
     }
 

@@ -1,14 +1,16 @@
 package zool.Controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
+@RequestMapping("/index2")
 public class HelloController {
 
-    @RequestMapping("/index")
+    @RequestMapping("/index2")
     public String hello(){
-        return "index";
+        System.out.println("nihao");
+        return "index2";
     }
 
 }

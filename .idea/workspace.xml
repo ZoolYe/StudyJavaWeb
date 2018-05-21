@@ -13,8 +13,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyJavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJavaWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zool/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zool/Controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zool/config/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zool/config/WebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/zool.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/index2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -26,15 +29,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/StudyJavaWeb$UserTest_userServiceTest.ic" NAME="UserTest.userServiceTest Coverage Results" MODIFIED="1526606697211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>zool.anno.*</FILTER>
+    <SUITE FILE_PATH="coverage/StudyJavaWeb$Test_test1.ic" NAME="Test.test1 Coverage Results" MODIFIED="1526741681257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>zool.xmlanno.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/StudyJavaWeb$Test_test.ic" NAME="Test.test Coverage Results" MODIFIED="1526814074887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>zool.aop.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/StudyJavaWeb$Test_test1.ic" NAME="Test.test1 Coverage Results" MODIFIED="1526741681257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>zool.xmlanno.*</FILTER>
+    <SUITE FILE_PATH="coverage/StudyJavaWeb$UserTest_userServiceTest.ic" NAME="UserTest.userServiceTest Coverage Results" MODIFIED="1526606697211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>zool.anno.*</FILTER>
     </SUITE>
   </component>
   <component name="DatabaseView">
@@ -53,11 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/Test.java">
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/Controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="209">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,20 +71,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <file leaf-file-name="MvcConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="286">
+              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <file leaf-file-name="WebInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/config/WebInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="133">
+              <caret line="13" column="67" lean-forward="true" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bean2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bean2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bean1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bean1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aop.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/aop.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -104,7 +143,11 @@
     <findStrings>
       <find>dispatcher</find>
       <find>slf4j</find>
+      <find>EnableWebMvc</find>
     </findStrings>
+    <dirStrings>
+      <dir>E:\Java\StudyJavaWeb\src\main\java\zool</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,8 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/zool/profile/DemoBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/profile/ProfileConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/profile/ProfileTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/event/DemoEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/event/DemoPublisher.java" />
@@ -145,17 +186,12 @@
         <option value="$PROJECT_DIR$/src/main/java/zool/fortest/TestBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/fortest/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/DemoBeanIntegrationTests.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/config/WebInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/Controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/xmlanno/OrdersDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/xmlanno/BookDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bean2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/zool/xmlanno/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/xmlanno/BookService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/bean3.xml" />
         <option value="$PROJECT_DIR$/src/main/java/zool/aop/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/aop/Test.java" />
@@ -163,6 +199,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/aop.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/Controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/config/WebInitializer.java" />
       </list>
     </option>
   </component>
@@ -266,7 +309,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zool" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zool" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -275,13 +327,47 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,25 +381,25 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="E:/Work/Git/Fin_API2" />
+    <property name="last_opened_file_path" value="E:/Work/Git/StudyBoot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.3456693" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\StudyJavaWeb\web\WEB-INF\classes\views" />
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src\main\java\zool" />
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web" />
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web\download" />
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Java\StudyJavaWeb\src\main\resources" />
       <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src" />
       <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src\main\java\zool" />
-      <recent name="E:\Java\StudyJavaWeb\web\WEB-INF\classes\views" />
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web" />
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web\download" />
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -405,35 +491,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudyJavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zool.aop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="zool.aop" />
-      <option name="MAIN_CLASS_NAME" value="zool.aop.Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -475,7 +538,7 @@
     </configuration>
     <configuration name="Tomcat 8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="UPDATING_POLICY" value="update-resources" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="StudyJavaWeb:war exploded">
           <settings>
@@ -564,15 +627,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5" />
-      <item itemvalue="JUnit.Test.test" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Test.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
@@ -624,22 +678,11 @@
       <workItem from="1526691724307" duration="21529000" />
       <workItem from="1526733440529" duration="7294000" />
       <workItem from="1526804876568" duration="6569000" />
+      <workItem from="1526865659734" duration="13757000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test1 - 2018.05.19 at 22h 02m 27s.xml">
-      <configuration name="Test.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_test1 - 2018.05.19 at 22h 02m 48s.xml">
-      <configuration name="Test.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_test1 - 2018.05.19 at 22h 03m 03s.xml">
-      <configuration name="Test.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_test1 - 2018.05.19 at 22h 54m 50s.xml">
-      <configuration name="Test.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test_test - 2018.05.20 at 18h 23m 53s.xml">
       <configuration name="Test.test" configurationId="JUnit" />
     </history-entry>
@@ -658,9 +701,21 @@
     <history-entry file="Test_test - 2018.05.20 at 19h 01m 37s.xml">
       <configuration name="Test.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_test - 2018.05.21 at 15h 03m 36s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test - 2018.05.21 at 15h 24m 13s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test - 2018.05.21 at 15h 25m 35s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test - 2018.05.21 at 15h 29m 01s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200702000" />
+    <option name="totallyTimeSpent" value="214459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -672,12 +727,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3275862" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50378215" side_tool="true" weight="0.40813008" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5042644" side_tool="true" weight="0.37176725" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3284553" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -689,21 +744,21 @@
       <window_info anchor="right" id="JSF" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="19" sideWeight="0.49621785" weight="0.5219512" />
+      <window_info active="true" anchor="bottom" id="Debug" order="19" sideWeight="0.49573562" visible="true" weight="0.37176725" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3284553" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.32357723" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.3448276" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3284553" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3284553" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5121951" />
-      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Spring" order="20" weight="0.32520324" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3284553" />
+      <window_info anchor="bottom" id="Spring" order="20" weight="0.32435346" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.46666667" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49268293" visible="true" weight="0.24583964" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49268293" visible="true" weight="0.24840085" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info id="Web" order="5" sideWeight="0.50731707" side_tool="true" weight="0.24886535" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286638" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3284553" />
@@ -715,55 +770,10 @@
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="16" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286638" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3275862" />
-      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3284553" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="21" visible="true" weight="0.3284553" />
-      <window_info anchor="bottom" id="REST Client" order="18" weight="0.5146104" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="20" weight="0.32682925" />
-      <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5121951" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.31544715" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3284553" />
-      <window_info anchor="right" id="JSF" order="5" weight="0.32980332" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50378215" side_tool="true" weight="0.40813008" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.32357723" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.3284553" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="10" />
-      <window_info anchor="bottom" id="Problems" order="16" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3284553" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3284553" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286638" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49268293" weight="0.2753404" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="9" weight="0.38861787" />
-      <window_info id="Web" order="5" sideWeight="0.50731707" side_tool="true" weight="0.24886535" />
-      <window_info anchor="right" id="Palette&#9;" order="11" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="CDI" order="9" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Debug" order="19" sideWeight="0.49621785" visible="true" weight="0.47804877" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -776,7 +786,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -786,35 +796,9 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/conditional/ConditionalTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE.jar!/org/springframework/scheduling/annotation/EnableScheduling.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/scheduling/annotation/EnableScheduling.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/scheduling/config/ScheduledTaskRegistrar.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/scheduling/annotation/SchedulingConfiguration.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/App.http" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/url/ServletDemo01.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.pom" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/scheduling/annotation/ScheduledAnnotationBeanPostProcessor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/zool/taskscheduler/ScheduledTaskConfig.java" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="384" column="48" lean-forward="true" selection-start-line="384" selection-start-column="48" selection-end-line="384" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/index.tld" />
-    <entry file="file://$PROJECT_DIR$/web/jsp/1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -840,33 +824,9 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/WebApplicationInitializer.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/config/WebInitializer.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/views/zool.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/stereotype/Controller.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/Controller/HelloController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/views/zool.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zool/taskscheduler/ScheduledTaskService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -881,87 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/xmlanno/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/xmlanno/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/xmlanno/OrdersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <element signature="e#70#71#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/xmlanno/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/aware.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/MyBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#67#68#0" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="117" column="45" lean-forward="true" selection-start-line="117" selection-start-column="45" selection-end-line="117" selection-end-column="45" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#61#62#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1000,30 +883,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/2.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/Test.java">
+    <entry file="file://$PROJECT_DIR$/web/jsp/3.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/xmlanno/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/xmlanno/OrdersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#70#71#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/xmlanno/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/xmlanno/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/index2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/views/index2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/beanJavaConfig/ElConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/beanJavaConfig/ScopeConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/beanJavaConfig/testConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/StudyJavaWeb_war_exploded/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <caret line="183" column="63" lean-forward="true" selection-start-line="183" selection-start-column="63" selection-end-line="183" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="304">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#61#62#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/MyBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="130" column="21" lean-forward="true" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/module=StudyJavaWeb">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=StudyJavaWeb</OriginalElement>
+          <nodes>
+            <node x="" y="">module=StudyJavaWeb</node>
+            <node x="" y="">fileset=StudyJavaWeb/Bean1</node>
+            <node x="" y="">filePath=E:/Java/StudyJavaWeb/src/main/resources/bean1.xml</node>
+            <node x="" y="">zool.annotation.DemoConfig</node>
+            <node x="" y="">zool.beanJavaConfig.ScopeConfig</node>
+            <node x="" y="">zool.beanJavaConfig.ElConfig</node>
+            <node x="" y="">zool.aware.AwareConfig</node>
+            <node x="" y="">zool.event.EventConfig</node>
+            <node x="" y="">zool.taskexecutor.TaskExecutorConfig</node>
+            <node x="" y="">org.springframework.scheduling.annotation.EnableAsync</node>
+            <node x="" y="">zool.config.MvcConfig</node>
+            <node x="" y="">org.springframework.web.servlet.config.annotation.EnableWebMvc</node>
+            <node x="" y="">zool.conditional.ConditionalConfig</node>
+            <node x="" y="">zool.taskscheduler.ScheduledTaskConfig</node>
+            <node x="" y="">org.springframework.scheduling.annotation.EnableScheduling</node>
+            <node x="" y="">zool.prepost.PrePostConfig</node>
+            <node x="" y="">zool.profile.ProfileConfig</node>
+            <node x="" y="">zool.fortest.TestConfig</node>
+            <node x="" y="">filePath=E:/Java/StudyJavaWeb/src/main/resources/aop.xml</node>
+            <node x="" y="" />
+            <node x="" y="">filePath=E:/Java/StudyJavaWeb/src/main/resources/springmvc-servlet.xml</node>
+            <node x="" y="">fileset=StudyJavaWeb/Aop</node>
+            <node x="" y="">fileset=StudyJavaWeb/Bean2</node>
+            <node x="" y="" />
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6683480453972257" x="490.5" y="386.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category />
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/Controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/config/WebInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="67" lean-forward="true" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1033,11 +1156,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>StudyJavaWeb:war exploded</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3456693" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1050,7 +1173,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.41102362" />
               </list>
             </option>
           </splitter-proportions>
@@ -1061,7 +1184,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3456693" />
               </list>
             </option>
           </splitter-proportions>
@@ -1073,7 +1196,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3456693" />
               </list>
             </option>
           </splitter-proportions>
@@ -1106,11 +1229,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.41102362" />
               </list>
             </option>
           </splitter-proportions>

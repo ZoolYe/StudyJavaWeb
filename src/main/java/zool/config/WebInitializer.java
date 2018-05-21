@@ -12,9 +12,12 @@ import javax.servlet.ServletRegistration;
  * WebApplicationInitializer 是Spring提供用来配置Servlet 3.0+配置的接口
  * 从而实现了替代web.xml的位置
  * 实现此接口将会自动被SpringServletContainerInitializer(用来启动Servlet3.0容器)获取到
- */
+ * */
+
+
 public class WebInitializer implements WebApplicationInitializer {
 
+    @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
 
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
@@ -22,9 +25,8 @@ public class WebInitializer implements WebApplicationInitializer {
         context.setServletContext(servletContext);
 
         ServletRegistration.Dynamic servlet = servletContext.addServlet("dispatcher",new DispatcherServlet(context));
-        servlet.addMapping("/");
         servlet.setLoadOnStartup(1);
-
+        servlet.addMapping("/");
     }
 
 }
