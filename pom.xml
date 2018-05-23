@@ -62,6 +62,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>4.2.4.RELEASE</version>
+            <scope>test</scope><!--存活是在test周期，发布时不包含这些jar-->
         </dependency>
 
         <dependency>

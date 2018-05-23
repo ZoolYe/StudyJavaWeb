@@ -1,4 +1,4 @@
-package zool.Controller;
+package zool.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

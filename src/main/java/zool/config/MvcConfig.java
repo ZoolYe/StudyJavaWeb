@@ -9,7 +9,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "zool.Controller")
+@ComponentScan(basePackages = "zool.controller")
 public class MvcConfig {
 
     /**
