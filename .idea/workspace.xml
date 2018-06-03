@@ -13,10 +13,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyJavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudyJavaWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zool/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zool/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -32,14 +30,14 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/StudyJavaWeb$Test_test1.ic" NAME="Test.test1 Coverage Results" MODIFIED="1526741681257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>zool.xmlanno.*</FILTER>
+    <SUITE FILE_PATH="coverage/StudyJavaWeb$UserTest_userServiceTest.ic" NAME="UserTest.userServiceTest Coverage Results" MODIFIED="1526606697211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>zool.anno.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/StudyJavaWeb$Test_test.ic" NAME="Test.test Coverage Results" MODIFIED="1526814074887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>zool.aop.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/StudyJavaWeb$UserTest_userServiceTest.ic" NAME="UserTest.userServiceTest Coverage Results" MODIFIED="1526606697211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>zool.anno.*</FILTER>
+    <SUITE FILE_PATH="coverage/StudyJavaWeb$Test_test1.ic" NAME="Test.test1 Coverage Results" MODIFIED="1526741681257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>zool.xmlanno.*</FILTER>
     </SUITE>
   </component>
   <component name="DatabaseView">
@@ -58,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zool/controller/HelloController.java">
+      <file leaf-file-name="JdbcTemplateDemo2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/jdbc/JdbcTemplateDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="209">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,21 +68,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="437">
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="MyRowMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/jdbc/MyRowMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="380">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zool/jdbc/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,14 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/zool/event/DemoEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/event/DemoPublisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/event/EventConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/event/DemoListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/event/TestEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/aware/test.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/aware/AwareConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zool/aware/TestAware.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/aware/AwareService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/aware.txt" />
         <option value="$PROJECT_DIR$/src/main/java/zool/taskexecutor/AsyncTaskService.java" />
@@ -164,16 +173,24 @@
         <option value="$PROJECT_DIR$/src/main/java/zool/aop/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/aop/MyBook.java" />
         <option value="$PROJECT_DIR$/src/main/resources/aop.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/views/springmvc-servlet.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/zool/Controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/config/WebInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/zool/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/aop/aspectj/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/aop2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/aop/aspectj/MyBook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/aop/aspectj/Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/jdbc/JdbcTemplateDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/jdbc/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/jdbc/MyRowMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/zool/jdbc/JdbcTemplateDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -221,7 +238,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="381" />
     <option name="y" value="13" />
     <option name="width" value="1400" />
@@ -237,6 +254,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,7 +297,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zool" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -286,13 +306,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StudyJavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,17 +336,17 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Java\StudyJavaWeb\web\WEB-INF\classes\views" />
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src\main\java\zool" />
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web" />
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web\download" />
-      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Java\StudyJavaWeb\src\main\resources" />
       <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src" />
       <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src\main\resources" />
+      <recent name="E:\Java\StudyJavaWeb\web\WEB-INF\classes\views" />
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\src\main\java\zool" />
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web" />
+      <recent name="D:\ZOOL\IDEA\StudyJavaWeb\web\download" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -416,12 +438,127 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JdbcTemplateDemo2.testList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="JdbcTemplateDemo1.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudyJavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zool.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="zool.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="zool.jdbc.JdbcTemplateDemo1" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JdbcTemplateDemo2.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudyJavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zool.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="zool.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="zool.jdbc.JdbcTemplateDemo2" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JdbcTemplateDemo2.testJDBC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudyJavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zool.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="zool.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="zool.jdbc.JdbcTemplateDemo2" />
+      <option name="METHOD_NAME" value="testJDBC" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JdbcTemplateDemo2.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudyJavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zool.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="zool.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="zool.jdbc.JdbcTemplateDemo2" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JdbcTemplateDemo2.testObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudyJavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zool.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="zool.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="zool.jdbc.JdbcTemplateDemo2" />
+      <option name="METHOD_NAME" value="testObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -552,6 +689,23 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.5" />
+      <item itemvalue="JUnit.JdbcTemplateDemo1.delete" />
+      <item itemvalue="JUnit.JdbcTemplateDemo2.testCount" />
+      <item itemvalue="JUnit.JdbcTemplateDemo2.testJDBC" />
+      <item itemvalue="JUnit.JdbcTemplateDemo2.testObject" />
+      <item itemvalue="JUnit.JdbcTemplateDemo2.testList" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JdbcTemplateDemo2.testList" />
+        <item itemvalue="JUnit.JdbcTemplateDemo2.testObject" />
+        <item itemvalue="JUnit.JdbcTemplateDemo2.testJDBC" />
+        <item itemvalue="JUnit.JdbcTemplateDemo2.testCount" />
+        <item itemvalue="JUnit.JdbcTemplateDemo1.delete" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
@@ -607,43 +761,45 @@
       <workItem from="1526905435592" duration="663000" />
       <workItem from="1526991502762" duration="755000" />
       <workItem from="1527072560416" duration="1183000" />
+      <workItem from="1527350681186" duration="716000" />
+      <workItem from="1528013359275" duration="14401000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test - 2018.05.20 at 18h 23m 53s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testJDBC - 2018.06.03 at 22h 23m 55s.xml">
+      <configuration name="JdbcTemplateDemo2.testJDBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.05.20 at 18h 29m 44s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testJDBC - 2018.06.03 at 22h 24m 28s.xml">
+      <configuration name="JdbcTemplateDemo2.testJDBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.05.20 at 18h 35m 37s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testJDBC - 2018.06.03 at 22h 24m 43s.xml">
+      <configuration name="JdbcTemplateDemo2.testJDBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.05.20 at 19h 00m 39s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testJDBC - 2018.06.03 at 22h 25m 13s.xml">
+      <configuration name="JdbcTemplateDemo2.testJDBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.05.20 at 19h 01m 20s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testJDBC - 2018.06.03 at 22h 25m 35s.xml">
+      <configuration name="JdbcTemplateDemo2.testJDBC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.05.20 at 19h 01m 37s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testObject - 2018.06.03 at 22h 42m 59s.xml">
+      <configuration name="JdbcTemplateDemo2.testObject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.05.21 at 15h 03m 36s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testObject - 2018.06.03 at 22h 43m 17s.xml">
+      <configuration name="JdbcTemplateDemo2.testObject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.05.21 at 15h 24m 13s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testObject - 2018.06.03 at 22h 44m 13s.xml">
+      <configuration name="JdbcTemplateDemo2.testObject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.05.21 at 15h 25m 35s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testList - 2018.06.03 at 22h 52m 55s.xml">
+      <configuration name="JdbcTemplateDemo2.testList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.05.21 at 15h 29m 01s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateDemo2_testList - 2018.06.03 at 22h 55m 43s.xml">
+      <configuration name="JdbcTemplateDemo2.testList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217207000" />
+    <option name="totallyTimeSpent" value="232324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,13 +811,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3275862" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5042644" side_tool="true" weight="0.37176725" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3284553" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="9" weight="0.32980332" />
       <window_info id="Capture Tool" order="2" />
@@ -671,9 +828,9 @@
       <window_info anchor="right" id="JSF" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="19" sideWeight="0.49573562" visible="true" weight="0.33405173" />
+      <window_info active="true" anchor="bottom" id="Debug" order="19" sideWeight="0.49573562" visible="true" weight="0.502439" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3284553" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.3448276" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.34471545" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3284553" />
@@ -681,8 +838,8 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3284553" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5121951" />
       <window_info anchor="bottom" id="Spring" order="20" weight="0.32435346" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.46659482" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49268293" visible="true" weight="0.2553305" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.46504065" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49268293" visible="true" weight="0.2632375" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info id="Web" order="5" sideWeight="0.50731707" side_tool="true" weight="0.24886535" />
       <window_info anchor="right" id="Theme Preview" order="10" />
@@ -713,7 +870,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -723,51 +880,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/scheduling/annotation/ScheduledAnnotationBeanPostProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/taskscheduler/ScheduledTaskConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/views/index.tld" />
-    <entry file="file://$PROJECT_DIR$/web/2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="7" lean-forward="true" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DemoBeanIntegrationTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/fortest/TestConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/fortest/TestBean.java" />
-    <entry file="jar://D:/apache-tomcat-8.5.24/lib/servlet-api.jar!/javax/servlet/ServletRegistration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-tomcat-8.5.24/lib/servlet-api.jar!/javax/servlet/ServletContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="83" column="7" lean-forward="true" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/WebApplicationInitializer.class" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/views/zool.jsp" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/stereotype/Controller.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/taskscheduler/ScheduledTaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/taskscheduler/ScheduledTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/aware.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -803,24 +915,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -902,27 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/MyBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://SpringLocalModels/module=StudyJavaWeb">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -986,10 +1063,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/controller/DemoController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/zool/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="46" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -998,66 +1093,192 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7562">
-          <caret line="398" column="36" selection-start-line="398" selection-start-column="36" selection-end-line="398" selection-end-column="36" />
+        <state relative-caret-position="114">
+          <caret line="381" column="14" lean-forward="true" selection-start-line="381" selection-start-column="14" selection-end-line="381" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/config/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aop.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="266">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/MyBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/UserDao2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/UserService2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/anno/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aop2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/aspectj/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/aspectj/MyBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/aop/aspectj/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#69#70#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.4.RELEASE/spring-jdbc-4.2.4.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="89" lean-forward="true" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="383">
+          <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/controller/DemoController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.0.4/mysql-connector-java-5.0.4.jar!/com/mysql/jdbc/Driver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/jdbc/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zool/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/jdbc/JdbcTemplateDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="100">
+          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/jdbc/MyRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zool/jdbc/JdbcTemplateDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
