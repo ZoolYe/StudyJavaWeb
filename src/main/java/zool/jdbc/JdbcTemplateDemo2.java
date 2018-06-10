@@ -7,6 +7,7 @@ import org.junit.Test;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
+import java.beans.PropertyVetoException;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.List;
@@ -14,7 +15,15 @@ import java.util.List;
 public class JdbcTemplateDemo2 {
 
     @Test
-    public void testList(){
+    public void testList() throws PropertyVetoException {
+
+        //已配置文件的方式实现
+        /*ComboPooledDataSource c3p0 = new ComboPooledDataSource();
+        c3p0.setDriverClass("com.mysql.jdbc.Driver");
+        c3p0.setJdbcUrl("jdbc:mysql:///test");
+        c3p0.setUser("root");
+        c3p0.setPassword("123456");*/
+
         //创建对象，设置数据库信息
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
