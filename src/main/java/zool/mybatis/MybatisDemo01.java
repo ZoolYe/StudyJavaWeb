@@ -60,4 +60,46 @@ public class MybatisDemo01 {
         sqlSession.close();
     }
 
+    @Test
+    public void insertUser() throws IOException {
+
+        User user = new User();
+        user.setUsername("zsadasd");
+        user.setAddress("dasdasdasdasdas");
+        user.setArea("dasda");
+        user.setCity("dasdasdas");
+        user.setCountry("dasdasdasd");
+        user.setName("dasdasdasd");
+        user.setPassword("dasdasdasdas");
+        user.setProvince("dasdasdas");
+        user.setProvincialcertificate("asdasdasdd");
+        user.setSex("h");
+        user.setStreet("dasdasdas");
+
+        //mybatis配置文件
+        String resource = "mybatis.xml";
+
+        //得到配置文件流
+        InputStream inputStream = Resources.getResourceAsStream(resource);
+
+        //创建会话工厂,传入mybatis的配置信息
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+
+        //通过工厂得到SqlSession
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        //list中的user和映射文件中的paramenterType所指定的类型一致
+        sqlSession.insert("test.insertUser",user);
+
+        //提交事务
+        sqlSession.commit();
+
+        //获取用户信息主键
+        user.getId();
+        System.out.println(user.getId());
+
+        //释放资源
+        sqlSession.close();
+    }
+
 }
