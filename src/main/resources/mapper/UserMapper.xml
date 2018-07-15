@@ -3,9 +3,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--
     namespace命名空间，作用就是对sql进行分类化管理，理解sql隔离
-    注意：使用mapper代理方法开发，namespace有特殊重要作用
+    注意：使用mapper代理方法开发，namespace有特殊重要作用，
+    namespace等于mapper接口的地址
  -->
-<mapper namespace="test">
+<mapper namespace="zool.mybatis.mapper.UserMapper">
 
     <!-- 在映射文件中配置很多sql语句 -->
     <!-- 通过select执行数据库查询 -->

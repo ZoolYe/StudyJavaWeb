@@ -11,7 +11,7 @@ public class UserDao {
     static{
         try {
 
-            /*InputStream inputStream = UserDao.class.getClassLoader().getResourceAsStream("db.properties");
+            /*InputStream inputStream = UserMapper.class.getClassLoader().getResourceAsStream("db.properties");
             dbConfig.load(inputStream);*/
         }catch (Exception e){
             /*中断异常*/
