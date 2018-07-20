@@ -17,7 +17,7 @@
         #{id}:其中id表示接受输入的参数，参数名称就是id，如果输入参数是简单类型，#{}中的参数名可以任意，可以是value或其它都可以
         resultType:指定sql输出结果的所映射的java对象类型,select指定resultType表示将单条记录映射成的java对象
      -->
-    <select id="findUserById" parameterType="int" resultType="zool.pojo.User">
+    <select id="findUserById" parameterType="int" resultType="user">
       select * from user where id = #{id}
     </select>
 
