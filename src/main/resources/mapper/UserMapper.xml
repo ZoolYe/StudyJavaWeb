@@ -8,6 +8,38 @@
  -->
 <mapper namespace="zool.mybatis.mapper.UserMapper">
 
+    <!-- 定义resultMap
+         select * from user where sex 和 UserCustom类中的属性作一个映射关系
+         type:resultMap最终映射的java对象类型,可以使用别名
+         id:对resultMap的唯一标识
+    -->
+
+    <resultMap id="userCustomResultMap" type="zool.pojo.UserCustom">
+        <!--
+            id表示查询结果集中唯一的标识
+            column:表示查询出来的列名
+            property:type指定的pojo中的属性名
+            最终resultMap对column和property作一个映射关系(对应关系)
+         -->
+        <id column="id" property="id"/>
+
+        <!--
+            result:对普通列的定义
+            column:表示查询出来的列名
+            property:type指定的pojo中的属性名
+        -->
+        <result column="username" property="username"/>
+
+    </resultMap>
+
+    <!--
+        使用resultMap进行输出映射
+        resultMap：指定定义的resultMap的id，如果这个resultMap在其它mapper文件，前边需要加namespace
+     -->
+    <!--<select id="findUserList" resultMap="userCustomResultMapser">
+        select * from user where sex = #{userCustom.sex}
+    </select>-->
+
     <!--
         用户信息综合查询
         #{userCustom.sex}:取出pojo包装对象中的性别
