@@ -6,9 +6,12 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Before;
 import zool.pojo.User;
+import zool.pojo.UserCustom;
+import zool.pojo.UserQueryVo;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 /**
  * @author : zoolye
@@ -41,6 +44,32 @@ public class Test {
         //调用userMapper的方法
         User user = userMapper.findUserById(629);
         System.out.println(user);
+    }
+
+    /**
+     * 用户信息综合查询
+     * @throws Exception
+     */
+    @org.junit.Test
+    public void test2() throws Exception {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        //创建UserMapper对象,mybatis自动生成mapper代理对象
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+
+        //创建包装对象，设置查询条件
+        UserQueryVo userQueryVo = new UserQueryVo();
+
+        UserCustom userCustom = new UserCustom();
+        userCustom.setSex("男");
+
+        userQueryVo.setUserCustom(userCustom);
+
+        //调用userMapper的方法
+        List<UserCustom> list = userMapper.findUserList(userQueryVo);
+
+        System.out.println(list);
+
     }
 
 }

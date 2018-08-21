@@ -43,7 +43,19 @@
     <!-- 加载映射文件 -->
     <mappers>
         <mapper resource="sqlmap/UserMapper.xml"/>
+        <!-- 通过resource方法一次加载一个映射文件 -->
         <mapper resource="mapper/UserMapper.xml"/>
+
+        <!--
+            通过mapper接口来加载映射文件
+            遵循一些规范:需要将mapper接口的类名和mapper.xml映射文件名称保持一致，且在一个目录
+            上边的规范前提是：使用的是mapper代理的方法
+        -->
+        <!--<mapper class="zool.mybatis.mapper.UserMapper"/>-->
+
+        <!-- 批量加载mapper 指定mapper接口的包名，mybatis自动的扫描包下边的接口进行加载-->
+        <!--<package name="zool.mybatis.mapper.UserMapper"/>-->
+        
     </mappers>
 
 </configuration>

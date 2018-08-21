@@ -8,6 +8,14 @@
  -->
 <mapper namespace="zool.mybatis.mapper.UserMapper">
 
+    <!--
+        用户信息综合查询
+        #{userCustom.sex}:取出pojo包装对象中的性别
+     -->
+    <select id="findUserList" resultType="zool.pojo.UserCustom">
+        select * from user where sex = #{userCustom.sex}
+    </select>
+
     <!-- 在映射文件中配置很多sql语句 -->
     <!-- 通过select执行数据库查询 -->
     <!-- id：标识映射文件中的sql称为statement的id
@@ -26,9 +34,9 @@
         使用${}拼接sql，可能会引起sql注入
         ${value}：接收输入参数的内容,如果传入的类型是简单类型,${}中只能使用value
     -->
-    <select id="findUserByName" parameterType="java.lang.String" resultType="zool.pojo.User">
+    <!--<select id="findUserByName" parameterType="java.lang.String" resultType="zool.pojo.User">
         select * from user where username like '%${value}%'
-  </select>
+    </select>-->
 
     <!-- 添加用户
         parameterType:指定输入参数类型pojo
@@ -73,7 +81,7 @@
         注意：id是必须存在
         #{id}:从输入的user对象中获取id的属性值
      -->
-    <update id="updateUser" parameterType="zool.pojo.User">
+    <!--<update id="updateUser" parameterType="zool.pojo.User">
       update user
       set id = #{id},
       username = #{username},
@@ -88,6 +96,6 @@
       address = #{address},
       provincialcertificate = #{provincialcertificate}
       where id = #{id}
-    </update>
+    </update>-->
 
 </mapper>

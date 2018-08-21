@@ -1,6 +1,10 @@
 package zool.mybatis.mapper;
 
 import zool.pojo.User;
+import zool.pojo.UserCustom;
+import zool.pojo.UserQueryVo;
+
+import java.util.List;
 
 /**
  * @author : zoolye
@@ -16,5 +20,7 @@ public interface UserMapper {
 
     //删除用户信息
     public void deleteUser(int id) throws Exception;
+
+    public List<UserCustom> findUserList(UserQueryVo userQueryVo) throws Exception;
 
 }
