@@ -3,6 +3,14 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+    <!--<settings>
+        &lt;!&ndash; 打开延时加载的开关 &ndash;&gt;
+        <setting name="lazyLoadingEnabled" value="true"/>
+
+        &lt;!&ndash; 将积极加载改为消极加载即按需加载 &ndash;&gt;
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>-->
+    
     <!--加载属性文件-->
     <properties resource="db.properties"></properties>
 
